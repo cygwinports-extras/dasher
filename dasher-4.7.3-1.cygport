@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION=
+
+CYGCONF_ARGS="--enable-speech"
