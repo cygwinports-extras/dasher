@@ -20,28 +20,3 @@
  #endif
  
  // All parameters go into the enums here
---- origsrc/dasher-4.7.3/Src/Makefile.am	2008-04-07 12:26:31.000000000 -0500
-+++ src/dasher-4.7.3/Src/Makefile.am	2008-05-30 06:32:33.687500000 -0500
-@@ -24,17 +24,17 @@
- 	-DPACKAGE_LOCALE_DIR=\"$(datadir)/locale\"
- 
- dasher_LDADD = \
--	$(GTK2BUILD_LIBS) \
--	-lexpat \
--	$(POPT_LIBS) \
--	$(GPELIB) \
- 	Common/libdashermisc.a \
- 	Gtk2/libdashergtk.a \
- 	Gtk2/libdashercontrol.a \
- 	DasherCore/libdashercore.a \
- 	DasherCore/libdasherprefs.a \
- 	DasherCore/LanguageModelling/libdasherlm.a \
--	Common/libdashermisc.a
-+	Common/libdashermisc.a \
-+	$(GTK2BUILD_LIBS) \
-+	-lexpat \
-+	$(POPT_LIBS) \
-+	$(GPELIB)
- #endif
- 
- #if DOQTE

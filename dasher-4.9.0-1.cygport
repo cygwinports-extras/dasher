@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="GNOME predictive text entry system"
+
+PATCH_URI="4.7-vpath.patch"
+
+CYGCONF_ARGS="--enable-speech"

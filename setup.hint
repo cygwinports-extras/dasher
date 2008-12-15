@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin GConf2 ORBit2 at-spi glib2 gnome-speech gnome-vfs2 gtk2-x11 libX11_6 libbonobo2 libcairo2 libexpat1 libglade2 libgnome2 libgnomeui2 libintl8 pango
+requires: cygwin libbonobo2_0 libcairo2 libexpat1 libgconf2_4 libglade2.0_0 libglib2.0_0 libgnome2_0 libgnomespeech7 libgnomeui2_0 libgnomevfs2_0 libgtk2.0_0 libintl8 libORBit2_0 libpango1.0_0 libspi0 libX11_6
 sdesc: "GNOME predictive text entry system"
 ldesc: "Dasher is a zooming predictive text entry system, designed for 
 situations where keyboard input is impractical (for instance, 
