@@ -6,39 +6,40 @@ accessibility or PDAs). It is usable with highly limited amounts of
 physical input while still allowing high rates of text entry.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libbonobo2_0-2.24.0-1
-  libcairo2-1.8.4-1
+  cygwin-1.7.0-45
+  libbonobo2_0-2.24.1-1
+  libcairo2-1.8.6-10
   libexpat1-2.0.1-1
-  libgconf2_4-2.24.0-1
-  libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libgnome2_0-2.24.1-1
-  libgnomespeech7-0.4.22-1
-  libgnomeui2_0-2.24.0-1
-  libgnomevfs2_0-2.24.0-1
-  libgtk2.0_0-2.14.5-1
-  libintl8-0.17-2
-  libORBit2_0-2.14.16-1
-  libpango1.0_0-1.22.3-1
-  libspi0-1.24.0-1
-  libX11_6-1.1.5-1
+  libgcc1-4.3.2-2
+  libgconf2_4-2.26.0-1
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.1-1
+  libgnome2_0-2.26.0-1
+  libgnomespeech7-0.4.25-1
+  libgnomeui2_0-2.24.1-1
+  libgtk2.0_0-2.16.1-1
+  libintl8-0.17-10
+  libORBit2_0-2.14.17-1
+  libpango1.0_0-1.24.1-1
+  libstdc++6-4.3.2-2
+  libspi0-1.26.0-1
+  libX11_6-1.2-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20080523-1
-  cygport-0.3.11-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.20.0-2
-  gnome-doc-utils-0.12.2-1
-  intltool-0.37.1-1
-  libtool-2.2.2-2
-  make-3.81-1
-  pkg-config-0.21-1
-  rarian-0.8.0-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  gnome-doc-utils-0.16.1-1
+  intltool-0.40.6-1
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
+  rarian-0.8.1-10
   sed-4.1.5-2
 
 Canonical website:
@@ -50,15 +51,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack dasher-4.7.3-X-src.tar.bz2
+  unpack dasher-4.10.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./dasher-4.7.3-X.cygport all
+  cygport ./dasher-4.10.0-X.cygport all
 
 This will create:
-  /usr/src/dasher-4.7.3-X-src.tar.bz2
-  /usr/src/dasher-4.7.3-X.tar.bz2
+  /usr/src/dasher-4.10.0-X-src.tar.bz2
+  /usr/src/dasher-4.10.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -253,13 +254,12 @@ Files included in the binary package:
   /usr/share/dasher/training_swedish_SE.txt
   /usr/share/dasher/training_turkish_TR.txt
   /usr/share/dasher/training_welsh_GB.txt
-  /usr/share/doc/dasher-4.9.0/AUTHORS
-  /usr/share/doc/dasher-4.9.0/COPYING
-  /usr/share/doc/dasher-4.9.0/ChangeLog
-  /usr/share/doc/dasher-4.9.0/INSTALL
-  /usr/share/doc/dasher-4.9.0/MAINTAINERS
-  /usr/share/doc/dasher-4.9.0/NEWS
-  /usr/share/doc/dasher-4.9.0/README
+  /usr/share/doc/dasher/AUTHORS
+  /usr/share/doc/dasher/COPYING
+  /usr/share/doc/dasher/ChangeLog
+  /usr/share/doc/dasher/MAINTAINERS
+  /usr/share/doc/dasher/NEWS
+  /usr/share/doc/dasher/README
   /usr/share/gnome/help/dasher/C/dasher.xml
   /usr/share/gnome/help/dasher/C/figures/a-z.gif
   /usr/share/gnome/help/dasher/C/figures/aa-az.gif
@@ -276,6 +276,38 @@ Files included in the binary package:
   /usr/share/gnome/help/dasher/C/figures/prefs3.png
   /usr/share/gnome/help/dasher/C/figures/prefs4.png
   /usr/share/gnome/help/dasher/C/figures/prefs5.png
+  /usr/share/gnome/help/dasher/de/dasher.xml
+  /usr/share/gnome/help/dasher/de/figures/a-z.gif
+  /usr/share/gnome/help/dasher/de/figures/aa-az.gif
+  /usr/share/gnome/help/dasher/de/figures/ala-alz.gif
+  /usr/share/gnome/help/dasher/de/figures/exampleHad2.png
+  /usr/share/gnome/help/dasher/de/figures/exampleHad2a.png
+  /usr/share/gnome/help/dasher/de/figures/exampleHad3a.png
+  /usr/share/gnome/help/dasher/de/figures/exampleHad4.png
+  /usr/share/gnome/help/dasher/de/figures/figure2.png
+  /usr/share/gnome/help/dasher/de/figures/main.png
+  /usr/share/gnome/help/dasher/de/figures/object.gif
+  /usr/share/gnome/help/dasher/de/figures/prefs1.png
+  /usr/share/gnome/help/dasher/de/figures/prefs2.png
+  /usr/share/gnome/help/dasher/de/figures/prefs3.png
+  /usr/share/gnome/help/dasher/de/figures/prefs4.png
+  /usr/share/gnome/help/dasher/de/figures/prefs5.png
+  /usr/share/gnome/help/dasher/en_GB/dasher.xml
+  /usr/share/gnome/help/dasher/en_GB/figures/a-z.gif
+  /usr/share/gnome/help/dasher/en_GB/figures/aa-az.gif
+  /usr/share/gnome/help/dasher/en_GB/figures/ala-alz.gif
+  /usr/share/gnome/help/dasher/en_GB/figures/exampleHad2.png
+  /usr/share/gnome/help/dasher/en_GB/figures/exampleHad2a.png
+  /usr/share/gnome/help/dasher/en_GB/figures/exampleHad3a.png
+  /usr/share/gnome/help/dasher/en_GB/figures/exampleHad4.png
+  /usr/share/gnome/help/dasher/en_GB/figures/figure2.png
+  /usr/share/gnome/help/dasher/en_GB/figures/main.png
+  /usr/share/gnome/help/dasher/en_GB/figures/object.gif
+  /usr/share/gnome/help/dasher/en_GB/figures/prefs1.png
+  /usr/share/gnome/help/dasher/en_GB/figures/prefs2.png
+  /usr/share/gnome/help/dasher/en_GB/figures/prefs3.png
+  /usr/share/gnome/help/dasher/en_GB/figures/prefs4.png
+  /usr/share/gnome/help/dasher/en_GB/figures/prefs5.png
   /usr/share/gnome/help/dasher/es/dasher.xml
   /usr/share/gnome/help/dasher/es/figures/a-z.gif
   /usr/share/gnome/help/dasher/es/figures/aa-az.gif
@@ -292,6 +324,22 @@ Files included in the binary package:
   /usr/share/gnome/help/dasher/es/figures/prefs3.png
   /usr/share/gnome/help/dasher/es/figures/prefs4.png
   /usr/share/gnome/help/dasher/es/figures/prefs5.png
+  /usr/share/gnome/help/dasher/eu/dasher.xml
+  /usr/share/gnome/help/dasher/eu/figures/a-z.gif
+  /usr/share/gnome/help/dasher/eu/figures/aa-az.gif
+  /usr/share/gnome/help/dasher/eu/figures/ala-alz.gif
+  /usr/share/gnome/help/dasher/eu/figures/exampleHad2.png
+  /usr/share/gnome/help/dasher/eu/figures/exampleHad2a.png
+  /usr/share/gnome/help/dasher/eu/figures/exampleHad3a.png
+  /usr/share/gnome/help/dasher/eu/figures/exampleHad4.png
+  /usr/share/gnome/help/dasher/eu/figures/figure2.png
+  /usr/share/gnome/help/dasher/eu/figures/main.png
+  /usr/share/gnome/help/dasher/eu/figures/object.gif
+  /usr/share/gnome/help/dasher/eu/figures/prefs1.png
+  /usr/share/gnome/help/dasher/eu/figures/prefs2.png
+  /usr/share/gnome/help/dasher/eu/figures/prefs3.png
+  /usr/share/gnome/help/dasher/eu/figures/prefs4.png
+  /usr/share/gnome/help/dasher/eu/figures/prefs5.png
   /usr/share/gnome/help/dasher/fr/dasher.xml
   /usr/share/gnome/help/dasher/fr/figures/a-z.gif
   /usr/share/gnome/help/dasher/fr/figures/aa-az.gif
@@ -358,6 +406,7 @@ Files included in the binary package:
   /usr/share/gnome/help/dasher/sv/figures/prefs5.png
   /usr/share/icons/hicolor/48x48/apps/dasher.png
   /usr/share/icons/hicolor/scalable/apps/dasher.svg
+  /usr/share/locale/af/LC_MESSAGES/dasher.mo
   /usr/share/locale/ar/LC_MESSAGES/dasher.mo
   /usr/share/locale/as/LC_MESSAGES/dasher.mo
   /usr/share/locale/az/LC_MESSAGES/dasher.mo
@@ -413,6 +462,7 @@ Files included in the binary package:
   /usr/share/locale/or/LC_MESSAGES/dasher.mo
   /usr/share/locale/pa/LC_MESSAGES/dasher.mo
   /usr/share/locale/pl/LC_MESSAGES/dasher.mo
+  /usr/share/locale/ps/LC_MESSAGES/dasher.mo
   /usr/share/locale/pt/LC_MESSAGES/dasher.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/dasher.mo
   /usr/share/locale/ro/LC_MESSAGES/dasher.mo
@@ -423,9 +473,10 @@ Files included in the binary package:
   /usr/share/locale/sl/LC_MESSAGES/dasher.mo
   /usr/share/locale/sq/LC_MESSAGES/dasher.mo
   /usr/share/locale/sr/LC_MESSAGES/dasher.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/dasher.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/dasher.mo
   /usr/share/locale/sv/LC_MESSAGES/dasher.mo
   /usr/share/locale/ta/LC_MESSAGES/dasher.mo
+  /usr/share/locale/te/LC_MESSAGES/dasher.mo
   /usr/share/locale/th/LC_MESSAGES/dasher.mo
   /usr/share/locale/tk/LC_MESSAGES/dasher.mo
   /usr/share/locale/tr/LC_MESSAGES/dasher.mo
@@ -438,7 +489,10 @@ Files included in the binary package:
   /usr/share/locale/zh_TW/LC_MESSAGES/dasher.mo
   /usr/share/man/man1/dasher.1.gz
   /usr/share/omf/dasher/dasher-C.omf
+  /usr/share/omf/dasher/dasher-de.omf
+  /usr/share/omf/dasher/dasher-en_GB.omf
   /usr/share/omf/dasher/dasher-es.omf
+  /usr/share/omf/dasher/dasher-eu.omf
   /usr/share/omf/dasher/dasher-fr.omf
   /usr/share/omf/dasher/dasher-oc.omf
   /usr/share/omf/dasher/dasher-ru.omf
@@ -448,11 +502,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 4.7.3-1 -----
-Version bump for GNOME 2.22.
-
------ version 4.4.2-1 -----
-Initial release for Cygwin.
+----- version 4.10.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:

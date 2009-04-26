@@ -2,6 +2,5 @@ inherit gnome2
 
 DESCRIPTION="GNOME predictive text entry system"
 
-PATCH_URI="4.7-vpath.patch"
-
+LDFLAGS+=" -Wl,--export-all-symbols"
 CYGCONF_ARGS="--enable-speech"
