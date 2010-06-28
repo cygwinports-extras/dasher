@@ -2,5 +2,5 @@ inherit gnome2
 
 DESCRIPTION="GNOME predictive text entry system"
 
-LDFLAGS+=" -Wl,--export-all-symbols"
 CYGCONF_ARGS="--enable-speech"
+MAKEOPTS+=" dasher_LDFLAGS=-export-dynamic"
